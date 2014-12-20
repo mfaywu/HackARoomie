@@ -4,5 +4,7 @@
     <string name="app_name">HackARoomie</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <!--<string name="app_id">3ZLW/TAqPvR43Zh79ejFQDOdka8=</string>-->
+    <string name="app_id">895500520482487</string>
 
 </resources>

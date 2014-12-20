@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/libraries/FacebookSDK/FacebookSDK.iml" filepath="$PROJECT_DIR$/libraries/FacebookSDK/FacebookSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/HackARoomie.iml" filepath="$PROJECT_DIR$/HackARoomie.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/FacebookSDK/libraries-FacebookSDK.iml" filepath="$PROJECT_DIR$/libraries/FacebookSDK/libraries-FacebookSDK.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name=":libraries:ibm_bluemix:ibmcloudcode">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/:libraries:ibm_bluemix:ibmcloudcode.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

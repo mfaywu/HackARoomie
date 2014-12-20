@@ -1,11 +1,8 @@
 package hackaroomie.att.com.hackaroomie.fragments;
 
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,23 +13,20 @@ import com.facebook.SessionState;
 import com.facebook.UiLifecycleHelper;
 import com.facebook.widget.LoginButton;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.Signature;
 import java.util.Arrays;
 
 import hackaroomie.att.com.hackaroomie.R;
 
-public class MainFragment extends Fragment {
+public class SplashFragment extends Fragment {
 
-    private static final String TAG = "MainFragment";
+    private static final String TAG = "SplashFragment";
     private UiLifecycleHelper uiHelper;
 
     @Override
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_main, container, false);
+        View view = inflater.inflate(R.layout.activity_splash, container, false);
 
         LoginButton authButton = (LoginButton) view.findViewById(R.id.authButton);
         authButton.setFragment(this);

@@ -5,4 +5,8 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="AppNameScreen" parent="@style/TextAppearance.AppCompat.Display3">
+        <item name="android:textColor">#fff</item>
+    </style>
+
 </resources>

@@ -22,6 +22,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
-
     compile project(':libraries:FacebookSDK')
+
+    compile files(':libraries:ibm_bluemix:ibmbluemix.jar')
+    compile files(':libraries:ibm_bluemix:ibmcloudcode.jar')
+    compile files(':libraries:ibm_bluemix:ibmdata.jar')
+    compile files(':libraries:ibm_bluemix:ibmfilesync.jar')
+
 }

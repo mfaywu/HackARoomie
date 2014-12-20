@@ -35,6 +35,8 @@ public final class R {
 		public static final int com_facebook_usersettingsfragment_connected_shadow_color = 0x7f040004;
 		public static final int com_facebook_usersettingsfragment_connected_text_color = 0x7f040005;
 		public static final int com_facebook_usersettingsfragment_not_connected_text_color = 0x7f040006;
+		public static final int theme_accent_1_light = 0x7f040007;
+		public static final int title_app_name = 0x7f040008;
 	}
 	public static final class dimen {
 		public static final int com_facebook_loginview_compound_drawable_padding = 0x7f060000;
